@@ -15,7 +15,6 @@
 </div>
 <!-- TODO: Make a short description -->
 <div align="center">
-  Short Description. (Optional)
   To create a Header and Footer Display Website with distinct designs using pure HTML and CSS.
 </div>
 

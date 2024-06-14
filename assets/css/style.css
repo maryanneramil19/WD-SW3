@@ -1,0 +1,175 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  color: white;
+  font-family: "Poppins", sans-serif;
+}
+
+h1,
+h1 * {
+  font-family: "Merriweather", serif;
+}
+
+body {
+ /* background: linear-gradient(75deg, #5074e0 0%, #f34b4b 100%);
+  background: -moz-linear-gradient(75deg, #5074e0 0%, #f34b4b 100%);
+  background: -webkit-linear-gradient(75deg, #5074e0 0%, #f34b4b 100%);*/
+  background: url(https://i.pinimg.com/564x/bf/6a/0c/bf6a0c2546daa10bd609374b76e49dee.jpg);
+}
+
+video {
+  position:absolute;
+  z-index: -1;
+  object-fit:cover;
+  width: 100vw;
+  height: 100vh;
+  opacity: 70%;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+  padding: clamp(.5vw, 3vw, 5vw);
+ 
+
+  & > .suzuki {
+    width: 40%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    & .title {
+      position: absolute;
+      top: 0.25rem;
+      left: 1rem;
+      height: clamp(2rem, 10vw, 10%);
+    }
+
+    & .logo-s {
+        height: clamp(2rem, 5vw, 3rem);
+      transition: all 0.2s ease;
+    }
+
+    & .jimny {
+      width: 100%;
+      object-fit: cover;
+      transition: all 0.5s ease;
+    }
+
+    & .socials {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      position: absolute;
+      top: clamp(1rem, 1vw, 2rem);
+      right: clamp(1rem, 1vw, 2rem);
+      gap: 0.5rem;
+
+      a {
+        text-decoration: none;
+      }
+
+      i {
+        font-size: 1.5rem;
+        position: relative;
+        display: flex;
+
+        &.bi-github {
+          transform: translateY(-3.5rem);
+          transition: all 0.3s ease;
+          color: transparent;
+        }
+
+        &.bi-envelope {
+          transform: translateY(-5.5rem);
+          transition: all 0.3s ease;
+          color: transparent;
+        }
+      }
+
+      &:hover {
+        .logo-s {
+          transform: rotateZ(360deg);
+        }
+
+        i.bi-github,
+        i.bi-envelope {
+          transform: translateY(0);
+          color: white;
+        }
+      }
+    }
+  }
+
+  & > .content {
+    width: 70%;
+    padding: clamp(.3rem, 1vw, 2rem) clamp(2rem, 1vw, 7rem);
+    display: flex;
+    flex-direction: column;
+
+    & > h3.subtitle {
+      font-size: clamp(1rem, 1.5rem, 2rem );
+      font-weight: 100;
+      letter-spacing: clamp(.3rem, 1rem, 1.3rem);
+      margin-bottom: 1rem;
+    }
+
+    & > h1.title {
+      font-size: clamp(5rem, 3rem, 4rem);
+      margin-bottom: 2rem;
+    }
+
+    & > p.description {
+      font-size: clamp(.6rem, 1rem, 1.2rem);
+      margin-bottom: 3rem;
+    }
+
+    & > nav {
+      display: flex;
+      gap: 1rem;
+      width: fit-content;
+
+      &:hover > :not(:hover) {
+        opacity: 0.6;
+      }
+
+      & > a {
+        border: rgba(255, 255, 255, 0.534) 1px solid;
+        border-radius: 25px;
+        padding: 0.7rem 1.5rem;
+        text-decoration: none;
+        color: white;
+        font-weight: 500;
+        transition: all 0.2s ease;
+        font-size: clamp(.8rem, 1vw, 1.2rem);
+
+        &:hover {
+          transform: translate(-0.3rem, -0.3rem);
+          filter: drop-shadow(0.3rem 0.3rem white);
+        }
+
+        &.engine {
+          background: linear-gradient(-8deg, #7b87aa 0%, #5269ad 100%);
+          background: -moz-linear-gradient(-8deg, #7b87aa 0%, #5269ad 100%);
+          background: -webkit-linear-gradient(-8deg, #7b87aa 0%, #5269ad 100%);
+          filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#9900FF", endColorstr="#D89DFF", GradientType=1 );
+        }
+
+        &.wheel {
+          background: linear-gradient(-8deg, #9900ff 0%, #d89eff 100%);
+          background: -moz-linear-gradient(-8deg, #9900ff 0%, #d89eff 100%);
+          background: -webkit-linear-gradient(-8deg, #9900ff 0%, #d89eff 100%);
+          filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#9900FF", endColorstr="#D89DFF", GradientType=1 );
+        }
+      }
+    }
+  }
+}

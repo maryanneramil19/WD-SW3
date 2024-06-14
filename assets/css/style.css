@@ -20,14 +20,14 @@ body {
   background: url(https://i.pinimg.com/564x/bf/6a/0c/bf6a0c2546daa10bd609374b76e49dee.jpg);
 }
 
-video {
+/*video {
   position:absolute;
   z-index: -1;
   object-fit:cover;
   width: 100vw;
   height: 100vh;
   opacity: 70%;
-}
+}*/
 
 .container {
   display: flex;

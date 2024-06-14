@@ -7,7 +7,7 @@
   <a href="https://github.com/zyx-0314/">
   <!-- TODO: If you want to add logo or banner you can add it here -->
     <img src="./assets/img/nyebe_white.png" alt="Nyebe" width="130" height="100">
-     <img src="https://imgcdn.oto.com.sg/large/gallery/color/20/204/suzuki-jimny-color-767654.jpg" alt="Jimny" width="130" height="130">
+     <img src="https://imgcdn.oto.com.sg/large/gallery/color/20/204/suzuki-jimny-color-767654.jpg" alt="Jimny" width="130" height="100">
 
   </a>
 <!-- TODO: Change Title to the name of the title of your Project -->

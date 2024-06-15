@@ -1,0 +1,252 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+/*Animated section.design-one,
+section.design-one */
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 200vh;
+    width: 100vw;
+    overflow-x: hidden;
+}
+
+section {
+    width: 100vw;
+    padding: 1rem 5vw;
+    display: flex;
+    gap: 1rem;
+    align-items: flex-end;
+}
+
+section.design-one{
+    display: flex;
+    align-items: flex-start;
+    background: #424141;
+
+    
+}
+
+/*Animated section.design-two,
+section.design-two  */
+
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+    body {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 200vh;
+        width: 100vw;
+        overflow-x: hidden;
+    }
+    
+    section {
+        width: 100vw;
+        padding: 1rem 5vw;
+        display: flex;
+        gap: 1rem;
+        align-items: flex-end;
+    }
+section.design-two{
+    display: flex;
+    align-items: flex-start;
+    background: #424141;
+
+
+    .footer {
+        position: relative;
+        width: 100%;
+        background: #3586ff;
+        min-height: 100px;
+        padding: 20px 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+      }
+      
+      .social-icon,
+      .menu {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 10px 0;
+        flex-wrap: wrap;
+      }
+      
+      .social-icon__item,
+      .menu__item {
+        list-style: none;
+      }
+      
+      .social-icon__link {
+        font-size: 2rem;
+        color: #fff;
+        margin: 0 10px;
+        display: inline-block;
+        transition: 0.5s;
+      }
+      .social-icon__link:hover {
+        transform: translateY(-10px);
+      }
+      
+      .menu__link {
+        font-size: 1.2rem;
+        color: #fff;
+        margin: 0 10px;
+        display: inline-block;
+        transition: 0.5s;
+        text-decoration: none;
+        opacity: 0.75;
+        font-weight: 300;
+      }
+      
+      .menu__link:hover {
+        opacity: 1;
+      }
+      
+      .p {
+        color: #fff;
+        margin: 0;
+        display: inline-block;
+        font-size: 1rem;
+        font-weight: 300;
+      }
+      
+      .wave {
+        position: absolute;
+        top: -100px;
+        left: 0;
+        width: 100%;
+        height: 100px;
+       background: url("https://i.ibb.co/wQZVxxk/wave.png");
+        background-size: 1000px 100px;
+      }
+      
+      .wave#wave1 {
+        z-index: 1000;
+        opacity: 1;
+        bottom: 0;
+        animation: animateWaves 4s linear infinite;
+      }
+      
+      .wave#wave2 {
+        z-index: 999;
+        opacity: 0.5;
+        bottom: 10px;
+        animation: animate 4s linear infinite !important;
+      }
+      
+      .wave#wave3 {
+        z-index: 1000;
+        opacity: 0.2;
+        bottom: 15px;
+        animation: animateWaves 3s linear infinite;
+      }
+      
+      .wave#wave4 {
+        z-index: 999;
+        opacity: 0.7;
+        bottom: 20px;
+        animation: animate 3s linear infinite;
+      }
+      
+      @keyframes animateWaves {
+        0% {
+          background-position-x: 1000px;
+        }
+        100% {
+          background-positon-x: 0px;
+        }
+      }
+      
+      @keyframes animate {
+        0% {
+          background-position-x: -1000px;
+        }
+        100% {
+          background-positon-x: 0px;
+        }
+      }
+      
+
+}
+
+
+
+/* Dev */
+/*section.design-one,
+section.design-one * {
+    /* outline: 1px dashed black; */
+
+
+/* Dep */
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 200vh;
+    width: 100vw;
+    overflow-x: hidden;
+}
+
+section {
+    width: 100vw;
+    padding: 1rem 5vw;
+    display: flex;
+    gap: 1rem;
+    align-items: flex-end;
+}
+
+section.design-one {
+    display: flex;
+    background: linear-gradient(75deg , rgb(127, 219, 231) 0%, rgb(219, 255, 219) 100% );
+    align-items: flex-start;
+
+    & .company-logo {
+        height: 50px;
+    }
+
+    & .social-media {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+        gap: .5rem;
+        height: 100%;
+
+        & i {
+            padding: .5rem;
+            border: 1px solid black;
+            border-radius: 50%;
+            height: 2.2rem;
+            width: 2.2rem;
+            transition: all .2s ease;
+        }
+    }
+
+    & .content {
+        padding-right: 20rem;
+    }
+
+    & .disclaimer {
+        font-size: .8rem;
+        width: 5vw;
+        display: flex;
+        align-items: center;
+        height: 100%;
+    }
+
+
+}

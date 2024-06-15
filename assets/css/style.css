@@ -1,4 +1,5 @@
-@import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Inknut+Antiqua:wght@300;400;500;600;700;800;900&display=swap');
+
 
 * {
   box-sizing: border-box;
@@ -10,24 +11,14 @@
 
 h1,
 h1 * {
-  font-family: "Merriweather", serif;
+  /*font-family: "Merriweather", serif;*/
+  font-family: "Inknut Antiqua", serif;
+  
 }
 
 body {
- /* background: linear-gradient(75deg, #5074e0 0%, #f34b4b 100%);
-  background: -moz-linear-gradient(75deg, #5074e0 0%, #f34b4b 100%);
-  background: -webkit-linear-gradient(75deg, #5074e0 0%, #f34b4b 100%);*/
   background: url(https://i.pinimg.com/564x/bf/6a/0c/bf6a0c2546daa10bd609374b76e49dee.jpg);
 }
-
-/*video {
-  position:absolute;
-  z-index: -1;
-  object-fit:cover;
-  width: 100vw;
-  height: 100vh;
-  opacity: 70%;
-}*/
 
 .container {
   display: flex;
@@ -82,6 +73,12 @@ body {
         position: relative;
         display: flex;
 
+        &.bi-linkedin {
+          transform: translateY(-5.5rem);
+          transition: all 0.3s ease;
+          color: transparent;
+        }
+
         &.bi-github {
           transform: translateY(-3.5rem);
           transition: all 0.3s ease;
@@ -99,7 +96,7 @@ body {
         .logo-s {
           transform: rotateZ(360deg);
         }
-
+        i.bi-linkedin,
         i.bi-github,
         i.bi-envelope {
           transform: translateY(0);
@@ -134,7 +131,7 @@ body {
 
     & > nav {
       display: flex;
-      gap: 1rem;
+      gap: 2.5rem;
       width: fit-content;
 
       &:hover > :not(:hover) {

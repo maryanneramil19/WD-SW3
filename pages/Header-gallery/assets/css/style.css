@@ -38,7 +38,7 @@
   border: 1px black solid;
 
   & .company-logo {
-    height: 70px;
+    height: 50px;
   }
 
   & .navigation {
@@ -114,4 +114,81 @@
     font-family: Georgia, 'Times New Roman', Times, serif;
   }
 }
+
+/* Nested Non-Specific Class */
+.design-four {
+ display: flex;
+ justify-content: space-between;
+  width: 100vw;
+  padding: 0.7rem 10vw;
+  gap: 2rem;
+  border: 1px black solid;
+  background-color: rgb(241, 238, 240);
+
+  & .company-logo {
+    height: 80px;
+    justify-self: flex-start;
+  }
+
+  & > img.company-logo {
+    height: 50px;
+  }
+
+  & > nav.navigation {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+
+    & > a.navigation-content {
+      font-weight: 600;
+      font-size: 1.1rem;
+      color: black;
+    }
+  }
+  & > nav.nav-button {
+    display: flex;
+    align-items: center;
+    font-size: 1.2rem;
+    gap: 3rem;
+  }
+  }
+
+/* Nested Non-Specific Class */
+.design-five {
+ display: flex;
+ justify-content: space-between;
+  width: 100vw;
+  padding: 0.7rem 10vw;
+  gap: 4rem;
+  border: 1px black solid;
+  background-color: rgb(98, 235, 143);
+
+  & .company-logo {
+    height: 80px;
+    justify-self: flex-start;
+    gap: 4rem;
+  }
+
+  & > img.company-logo {
+    height: 80px;
+  }
+
+  & > nav.navigation {
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+
+    & > a.navigation-content {
+      font-weight: 600;
+      font-size: 1.5rem;
+      color: black;
+    }
+  }
+  & > nav.nav-icons {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    font-size: 1.5rem;
+  }
+  }
 

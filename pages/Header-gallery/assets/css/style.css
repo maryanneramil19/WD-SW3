@@ -17,3 +17,100 @@
     width: 100vw;
     overflow-x: hidden;
   }
+  section {
+    width: 100vw;
+    padding: 1rem 5vw;
+    display: flex;
+    gap: 1rem;
+    align-items: flex-end;
+}
+
+
+  /* Nested Non-Specific Class */
+.design-one {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  gap: 1rem;
+  width: 100vw;
+  box-shadow: 0 10px rgba(124, 124, 124, 0.534);
+  padding: 1.5rem 0;
+  border: 1px black solid;
+
+  & .company-logo {
+    height: 70px;
+  }
+
+  & .navigation {
+    display: flex;
+    gap: 1rem;
+  }
+
+  & .navigation-content {
+    color: black;
+    font-weight: 700;
+    font-size: 1.2rem;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  }
+}
+
+ 
+/* Nested Non-Specific Class */
+ .design-two {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  gap: 4rem;
+  width: 100vw;
+  box-shadow: 0 10px rgba(170, 92, 92, 0.39);
+  padding: 2.5rem 0;
+  border: 1px black solid;
+  background-color: cornflowerblue;
+
+  & .company-logo {
+    height: 70px;
+  }
+
+  & .navigation {
+    display: flex;
+    gap: 4rem;
+  }
+
+  & .navigation-content {
+    color: black;
+    font-weight: 700;
+    font-size: 1.2rem;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  }
+}
+
+/* Nested Non-Specific Class */
+.design-three {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  gap: 3.5rem;
+  width: 100vw;
+  box-shadow: 0 10px rgba(111, 204, 241, 0.39);
+  padding: 2.5rem 0;
+  border: 1px black solid;
+  background-color: rgb(241, 238, 240);
+
+  & .company-logo {
+    height: 70px;
+  }
+
+  & .navigation {
+    display: flex;
+    gap: 3.5rem;
+  }
+
+  & .navigation-content {
+    color: black;
+    font-weight: 700;
+    font-size: 1.2rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+}

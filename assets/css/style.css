@@ -17,6 +17,8 @@ h1 * {
 
 body {
   background: url(https://i.pinimg.com/564x/bf/6a/0c/bf6a0c2546daa10bd609374b76e49dee.jpg);
+  background-repeat: initial;
+
 }
 
 .container {
@@ -152,10 +154,6 @@ body {
         }
 
         &.engine {
-          /*background: linear-gradient(-8deg, #7b87aa 0%, #5269ad 100%);
-          background: -moz-linear-gradient(-8deg, #7b87aa 0%, #5269ad 100%);
-          background: -webkit-linear-gradient(-8deg, #7b87aa 0%, #5269ad 100%);
-          filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#9900FF", endColorstr="#D89DFF", GradientType=1 );*/
           background: rgb(72, 146, 72);
         }
 

@@ -88,35 +88,6 @@
 
 /* Nested Non-Specific Class */
 .design-three {
-  display: flex;
-  align-items: flex-end;
-  justify-content: center;
-  gap: 3.5rem;
-  width: 100vw;
-  box-shadow: 0 10px rgba(111, 204, 241, 0.39);
-  padding: 2.5rem 0;
-  border: 1px black solid;
-  background-color: rgb(241, 238, 240);
-
-  & .company-logo {
-    height: 70px;
-  }
-
-  & .navigation {
-    display: flex;
-    gap: 3.5rem;
-  }
-
-  & .navigation-content {
-    color: black;
-    font-weight: 700;
-    font-size: 1.2rem;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-  }
-}
-
-/* Nested Non-Specific Class */
-.design-four {
  display: flex;
  justify-content: space-between;
   width: 100vw;
@@ -154,7 +125,7 @@
   }
 
 /* Nested Non-Specific Class */
-.design-five {
+.design-four {
  display: flex;
  justify-content: space-between;
   width: 100vw;
@@ -192,3 +163,34 @@
   }
   }
 
+
+/* Nested Non-Specific Class */
+.design-five {
+  display: flex;
+  justify-content: space-between;
+   width: 100vw;
+   padding: 0.7rem 10vw;
+   gap: 4rem;
+   border: 1px black solid;
+   background-color: rgb(202, 206, 203);
+   
+   & .company-logo {
+     height: 80px;
+     justify-self: flex-start;
+     gap: 4rem;
+   }
+ 
+   & > img.company-logo {
+     height: 80px;
+   }
+
+   }
+   & nav.nav-icons {
+     display: flex;
+     align-items: center;
+     gap: 2rem;
+     font-size: 1.5rem;
+     color: black;
+   }
+  
+ 

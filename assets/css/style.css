@@ -17,7 +17,12 @@ h1 * {
 
 body {
   background: url(https://i.pinimg.com/564x/bf/6a/0c/bf6a0c2546daa10bd609374b76e49dee.jpg);
-  background-repeat: repeat-x;
+  position: absolute;
+  z-index: -1;
+  object-fit: cover;
+  width: 100vw;
+  height: 100vh;
+  opacity: 0.80;
 
 }
 
@@ -108,20 +113,20 @@ body {
 
   & > .content {
     width: 70%;
-    padding: clamp(.3rem, 1vw, 2rem) clamp(2rem, 1vw, 7rem);
+   /* padding: clamp(.3rem, 1vw, 2rem) clamp(2rem, 1vw, 7rem);*/
     display: flex;
     flex-direction: column;
 
     & > h3.subtitle {
       font-size: clamp(1rem, 1.5rem, 2rem );
       font-weight: 100;
-      letter-spacing: clamp(.3rem, 1rem, 1.3rem);
-      margin-bottom: 1rem;
+      letter-spacing: clamp(.2rem, 1rem, 1.1rem);
+      margin-bottom: 0.5rem;
     }
 
     & > h1.title {
       font-size: clamp(5rem, 3rem, 4rem);
-      margin-bottom: 2rem;
+      margin-bottom: 1rem;
     }
 
     & > p.description {
@@ -131,7 +136,7 @@ body {
 
     & > nav {
       display: flex;
-      gap: 3.5rem;
+      gap: 3rem;
       width: fit-content;
 
       &:hover > :not(:hover) {
@@ -158,10 +163,11 @@ body {
         }
 
         &.wheel {
-          background: linear-gradient(-8deg, #9900ff 0%, #d89eff 100%);
+         /* background: linear-gradient(-8deg, #9900ff 0%, #d89eff 100%);
           background: -moz-linear-gradient(-8deg, #9900ff 0%, #d89eff 100%);
           background: -webkit-linear-gradient(-8deg, #9900ff 0%, #d89eff 100%);
-          filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#9900FF", endColorstr="#D89DFF", GradientType=1 );
+          filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#9900FF", endColorstr="#D89DFF", GradientType=1 );*/
+          background: rgb(226, 81, 81);
         }
       }
     }

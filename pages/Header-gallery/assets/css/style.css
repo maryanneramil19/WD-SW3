@@ -423,11 +423,17 @@
       font-size: 1.1rem;
       color: black;
     }
-    .nav-icons:hover {
-      color: blue;
+    & a.navigation-content:hover{
+      color: maroon;
       transform: translateY(-5px);
     }
   }
+
+  .navigation-content:hover, .nav-icons:hover {
+    color: maroon;
+    transform: translateY(-5px);
+  }
+
 
    }
    & nav.nav-icons {

@@ -208,7 +208,7 @@ section.design-two{
 
 /*Design 3*/
 
-.site-footer-animated
+.site-footer
 {
   background-color:#87c58e;
   padding:45px 0 20px;
@@ -376,7 +376,7 @@ section.design-two{
 
 /*design 4  */
 
-.site-footers-animated
+.site-footers
 {
 bottom: 0;
   background-color:#d2f539;
@@ -434,7 +434,7 @@ section {
   align-items: flex-end;
 }
 
-.design-five-animated {
+.design-five {
 display: flex;
 justify-content: space-between;
 gap: 3rem;
@@ -629,7 +629,7 @@ section.design-two-animated{
 
 /*Design 3*/
 
-.site-footer
+.site-footer-animated
 {
   background-color:#87c58e;
   padding:45px 0 20px;
@@ -797,7 +797,7 @@ section.design-two-animated{
 
 /*design 4  */
 
-.site-footers
+.site-footers-animated
 {
 bottom: 0;
   background-color:#d2f539;

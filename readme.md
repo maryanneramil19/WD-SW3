@@ -11,7 +11,7 @@
 
   </a>
 <!-- TODO: Change Title to the name of the title of your Project -->
-  <h3 align="center">Jimny</h3>
+  <h3 align="center">Seatwork 3</h3>
 </div>
 <!-- TODO: Make a short description -->
 <div align="center">
@@ -62,17 +62,16 @@
 
 
 Guiding Question:
-- What is the project
-- Whats the purpose
-- What are key components
-- What technology used and how it is used
+- What is the project This represents my Seatwork 3 in Web Design
+- Whats the purpose: To enhance and practice more in Web Designing 
+- What are key components: This project shows how can I create a  static and animated headers and footers, respectively.
+- What technology used and how it is used: Using purely HTML and external CSS in making this webpage.
 
 ### Key Components
 <!-- TODO: List of Key Components -->
 <!-- The following are just sample -->
-- MultiPage Website/Single Page Website
-- Parallax transition
-- Transactional
+Header and Footer Animation
+-Hover
 
 ### Technology
 <!-- TODO: List of Technology Used -->
